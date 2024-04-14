@@ -17,7 +17,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(img/bg-prewed.jpg);
+  background-image: url(img/bg-prewed\(3\).jpg);
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -171,6 +171,15 @@ body {
 
 .info .card-body {
   font-size: 1rem;
+}
+
+.info .card-location {
+  font-size: 0.9rem;
+}
+
+.info .card-location i {
+  width: 4px;
+  height: 4px;
 }
 
 .info .card-footer {
@@ -469,8 +478,8 @@ footer li {
   }
 
   .simply-countdown > .simply-section {
-    padding: 40px;
-    margin: 2.8px;
+    padding: 45px;
+    margin: 3px;
   }
 
   .timeline li .timeline-image {
